@@ -9,13 +9,10 @@ html {
     padding: 0;
     box-sizing: border-box;
     overflow: auto;
-
     /* The image used */
     background-image: url("gradient-bg.svg");
-  
     /* Full height */
     height: 100%;
-  
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -23,7 +20,21 @@ html {
     background-size: cover;
   }
 
-  .vh {
+  form {
+
+  }
+
+  .thingy {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+  }
+
+  #physicsForm {
+    margin: 1em;
+  }
+  .para {
+
     margin: auto;
     height: 30vh;
     width: 60vw;
@@ -35,4 +46,13 @@ html {
     padding: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2em;
+  }
+
+  button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .5em;
+    background-color: white;
+    border-radius: 5px;
+    padding: .5em;
+    margin: 1em;
   }
