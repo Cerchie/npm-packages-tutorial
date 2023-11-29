@@ -2,7 +2,6 @@ html {
     height: 100%;
     overflow: hidden;
   }
-
 #bluespring {
     height: 20em;
     margin: auto;
@@ -108,7 +107,6 @@ html {
   
   body .gist .gist-data {
     border-bottom: none;
-
     border-radius: 10px;
     background-color: white;
   }
@@ -177,6 +175,13 @@ html {
     border-radius: 5px;
     padding: .5em;
     margin: 1em;
+  }
+
+  #headshot {
+    border-radius: 50%;
+    margin: auto;
+
+    width: 50%;
   }
 
   .spacer {
