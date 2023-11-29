@@ -92,6 +92,51 @@ html {
     font-size: 1.5em;
 
   }
+
+  body .gist .gist-file {
+    margin: auto;
+    margin-top: 4em;
+    width: 80vw;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  body .gist .gist-data {
+    border-bottom: none;
+
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  body .gist .blob-wrapper {
+    border-radius: 10px;
+
+  }
+  body .gist tr:first-child td {
+    padding-top: 15px !important;
+  }
+  
+  body .gist tr:last-child td {
+    padding-bottom: 15px !important;
+  }
+  body .gist .highlight {
+    padding: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 1.75em;
+  }
+
+  body .gist .blob-num {
+    color: white;
+    background-color: purple;
+    pointer-events: none;
+    font-weight: 100;
+  }
+  /* //removes gh stuff */
+  body .gist .gist-meta {
+    display: none;
+  }
+
   p {
     margin: auto;
     line-height: 1.5;
