@@ -15,22 +15,11 @@ function spring() {
 
     anime({
         targets: '.thingy',
-        translateX: 250,
+        translateX: 200,
         direction: 'alternate',
         loop: true,
-        easing: `spring(${mass}, 100, 10, 0`
+        easing: `spring(${mass}, ${stiffness}, ${damping}, ${velocity}`
       })
 
   }
 
-function springMass(){
-    const mass = parseFloat(document.getElementById('mass').value);
-
-    anime({
-        targets: '.massthingy',
-        translateX: 250,
-        direction: 'alternate',
-        loop: true,
-        easing: `spring(${mass}, , ${damping}, ${velocity})`
-      })
-}

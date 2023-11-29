@@ -35,6 +35,16 @@ html {
 
   }
 
+  h2{
+    margin: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    margin: 1em;
+    color: white;
+    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+  }
+
   .codespan {
     font-family:'Courier New', Courier, monospace;
   }
@@ -49,8 +59,8 @@ html {
 
   .thingy {
     margin: 3em;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 2px solid black;
     background-color: lightcyan;
@@ -69,12 +79,12 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 70vw;
     gap: 10px;
     margin: auto; /* Center the form horizontally */
     border: 3px solid black;
     border-radius: 10px;
-    margin-top: 15em;
+    margin-top: 3em;
     background-color: white;
     text-align: center;
     padding: 1em;
@@ -84,11 +94,25 @@ html {
   }
   p {
     margin: auto;
-    height: 30vh;
+    line-height: 1.5;
     width: 60vw;
     border: 3px solid black;
     border-radius: 10px;
-    margin-top: 6em;
+    margin-top: 2em;
+    background-color: white;
+    text-align: center;
+    padding: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+  }
+
+  .p {
+    margin: auto;
+    line-height: 1.5;
+    width: 60vw;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 2em;
     background-color: white;
     text-align: center;
     padding: 1em;
@@ -103,4 +127,8 @@ html {
     border-radius: 5px;
     padding: .5em;
     margin: 1em;
+  }
+
+  .spacer {
+    margin-top: 3em;
   }
