@@ -8,7 +8,12 @@ html {
     margin: auto;
     max-width: 100%;
   }
-
+  a::after {
+    color: purple;
+  }
+  a::before {
+    color: purple;
+  }
   body {
     height: 100%;
     margin: 0;
