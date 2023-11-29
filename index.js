@@ -13,13 +13,24 @@ function spring() {
       return;
     }
 
-
     anime({
         targets: '.thingy',
         translateX: 250,
         direction: 'alternate',
         loop: true,
-        easing: `spring(${mass}, ${stiffness}, ${damping}, ${velocity})`
+        easing: `spring(${mass}, 100, 10, 0`
       })
 
   }
+
+function springMass(){
+    const mass = parseFloat(document.getElementById('mass').value);
+
+    anime({
+        targets: '.massthingy',
+        translateX: 250,
+        direction: 'alternate',
+        loop: true,
+        easing: `spring(${mass}, , ${damping}, ${velocity})`
+      })
+}

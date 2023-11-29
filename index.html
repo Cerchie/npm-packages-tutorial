@@ -15,8 +15,15 @@
     <p>Ever wonder why a spring behaves the way it does? Well, there are 4 different reasons:
     <b>mass, stiffness, damping, and velocity.</b></p>
     <img src="./bluespring.svg" alt="blue spring" id="bluespring">
-    <p>The <b>mass</b> of a spring refers to the mass of the object pulling at the end of the spring.</p>
-    <p>Edit the mass variable here to see the effect on the blue ball's motion.</p>
+    <p>The <b>mass</b> of a spring (according to <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0181.html">Apple's animation implementation</a>) refers to the mass of the object pulling at the end of the spring.</p>
+    <form id="physicsForm">
+        <p>Edit the mass variable here to see the effect on the blue ball's motion.</p>
+        <label for="mass">Mass:</label>
+        <input type="number" id="mass" required>
+      
+        <button type="button" onclick="springMass()">Submit</button>
+      </form>
+      <div class="massthingy"></div>
     <p>The <b>stiffness</b> of a spring is basically how stiff it is, or the <a href="https://physics.stackexchange.com/questions/252795/difference-between-stiffness-and-damping#:~:text=The%20stiffness%20depends%20on%20the,are%20not%20(simply)%20related">elasticity between the atomic bonds.</a></p>
     <p>Edit the stiffness variable here to see the effect on the blue ball's motion.</p>
     <p>The<b>dampings</b> is anything that <a href="https://physics.stackexchange.com/questions/8402/what-affects-the-damping-of-a-spring">causes the spring's motion to be finite,</a> (e.g., friction). </p>
