@@ -2,6 +2,12 @@ html {
     height: 100%;
     overflow: hidden;
   }
+
+  #about {
+    margin-bottom: 3em;
+  }
+
+
 #bluespring {
     height: 20em;
     margin: auto;
@@ -180,7 +186,7 @@ html {
   #headshot {
     border-radius: 50%;
     margin: auto;
-
+    margin-left: 6em;
     width: 50%;
   }
 
