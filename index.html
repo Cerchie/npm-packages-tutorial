@@ -22,19 +22,20 @@
     <h2>Play with all 4 variables below!</h2>    
     <form id="physicsForm">
             <label for="mass">Mass:</label>
-            <input type="number" oninput="updateValue()" id="mass" required>
+            <input type="number" id="mass" required>
           
             <label for="stiffness">Stiffness:</label>
-            <input type="number" oninput="updateValue()" id="stiffness" required>
+            <input type="number"  id="stiffness" required>
           
             <label for="damping">Damping:</label>
-            <input type="number" oninput="updateValue()" id="damping" required>
+            <input type="number" id="damping" required>
           
             <label for="velocity">Velocity:</label>
-            <input type="number" oninput="updateValue()" id="velocity" required>
+            <input type="number" id="velocity" required>
           
-            <button type="button" class="play" onclick="spring()">Start</button>
-            <button type="button" class="pause" onclick="spring()">Stop</button>
+            <button type="button"  onclick="spring()">Start</button>
+            <button type="button" class="pause">Stop</button>
+            <button type="button" class="restart" onclick="spring()">Restart</button>
           </form>
           <div class="thingy"></div>
     <p>In anime.js, you'd <a href="https://animejs.com/documentation/#springPhysicsEasing">implement</a> spring-based motion like this:</p>
