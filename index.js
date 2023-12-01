@@ -21,7 +21,7 @@ function spring() {
         loop: true,
         easing: `spring(${mass}, ${stiffness}, ${damping}, ${velocity}`
       })
-
+      console.log(mass)
     document.querySelector('.pause').onclick = animation.pause;
     }
   
