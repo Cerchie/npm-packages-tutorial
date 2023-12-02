@@ -1,26 +1,11 @@
 
   
-
-
-
-
-      let isMotionActive = false;
-      let motionInstance = null;
-  
-      function toggleMotion() {
-        if (isMotionActive) {
-          // Stop the motion
-          motionInstance.pause();
-        } else {
-          // Start the motion
-          startMotion();
-        }
-  
-        // Toggle motion status
-        isMotionActive = !isMotionActive;
-      }
-  
       function startMotion() {
+
+    
+        let motionInstance = null;
+
+      
         // Get form values
         const mass =  parseInt(document.getElementById("mass").value);
         const stiffness = parseInt(document.getElementById("stiffness").value);
@@ -36,22 +21,14 @@
         // Create motion using Anime.js
         motionInstance =  anime({
           targets: '.thingy',
-          translateY: 20,
+          translateX: 200,
           direction: 'alternate',
           autoplay: true,
           loop: true,
-          easing: `spring(${mass}, ${stiffness}, ${damping}, ${velocity}`,
-  
+          easing: `spring(${mass}, ${stiffness}, ${damping}, ${velocity})`
         })
+
+        console.log(motionInstance)
       }
   
-      function updateMotion() {
-        // Stop the motion if active
-        if (isMotionActive) {
-          motionInstance.pause();
-          isMotionActive = false;
-        }
   
-        // Update motion with new form values
-        startMotion();
-      }
