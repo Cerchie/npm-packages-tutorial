@@ -29,6 +29,8 @@
         })
 
         motionInstance.play();
+
+        console.log(motionInstance)
       }
   
   
