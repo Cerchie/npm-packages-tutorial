@@ -24,11 +24,11 @@
           translateX: 200,
           direction: 'alternate',
           autoplay: true,
-          loop: true,
+          loop: 2,
           easing: `spring(${mass}, ${stiffness}, ${damping}, ${velocity})`
         })
 
-        console.log(motionInstance)
+        motionInstance.play();
       }
   
   
