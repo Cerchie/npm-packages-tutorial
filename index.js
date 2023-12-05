@@ -21,7 +21,7 @@
         // Create motion using Anime.js
         motionInstance =  anime({
           targets: '.thingy',
-          translateX: 200,
+          translateX: [0, 200], // from 0 to 200
           direction: 'alternate',
           autoplay: true,
           loop: 2,
