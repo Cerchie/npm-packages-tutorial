@@ -189,7 +189,7 @@ html {
   /* all desktop styles */
 @media (min-width: 1100px) {
 
-.desktop-p {
+.p {
   border: none;
   background-color: transparent;
   font-size: 2em;
@@ -206,12 +206,6 @@ html {
 
 }
 
-.p {
-
-
-
-  font-size: 4em;
-}
 
   #bluespring {
   margin: auto;
