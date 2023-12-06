@@ -15,7 +15,7 @@ html {
   }
 
   a:link {
-    color: cyan;
+    color: rgb(195, 215, 241);
   }
 
   a:visited {
@@ -215,12 +215,9 @@ html {
 
 }
 
+#bluespring {
 
-  #bluespring {
-  margin: auto;
-  margin-left: 30vw;
- width: 30%;
-  }
+}
 
   .btn-container {
     display: flex;
