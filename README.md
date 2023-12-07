@@ -1,5 +1,5 @@
-# bare-bones-vanilla
+# spring phsyics in anime.js
 
-💀 🍦 a template I use when I literally just need vanilla JS/CSS/HTML for web dev.  Feel free to use it yourself. 
+A site I built to help developers develop (haha) a sense for how spring phsyics in [anime.js](https://animejs.com/) works. 
 
-To use, click 'Use this template' and allow the magic to happen. Once you have a fork you can clone it down to your machine with `git clone INSERT_YOUR_REPO_URL_HERE`. 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/36ad1ce2-a3b6-4c32-9596-5270a43fe4c4/deploy-status)](https://app.netlify.com/sites/spring-physics-in-animejs/deploys)

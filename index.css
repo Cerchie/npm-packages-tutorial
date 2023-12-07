@@ -39,6 +39,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 
+ 
   }
   
   h1 {
@@ -47,7 +48,6 @@ html {
     margin: 1em;
     color: white;
     text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
-
   }
 
   h2{
