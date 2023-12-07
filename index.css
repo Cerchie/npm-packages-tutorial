@@ -30,7 +30,7 @@ html {
     box-sizing: border-box;
     overflow: auto;
     /* The image used */
-    background-image: url("gradient-bg.svg");
+    background-image: url("bg.svg");
     /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
