@@ -197,24 +197,6 @@ html {
   /* all desktop styles */
 @media (min-width: 1100px) {
 
-
-.p {
-  border: none;
-  background-color: transparent;
-  font-size: 2em;
-
-  margin: auto;
-  line-height: 1.5;
-  width: 60vw;
-
-  margin-top: 2em;
-
-  text-align: center;
-  padding: 1em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
 #bluespring {
   margin-left: 30em;
 }
