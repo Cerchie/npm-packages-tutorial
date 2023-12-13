@@ -21,17 +21,15 @@
     <div class="spacer"> The <b>velocity</b> is the initial velocity of the object attached to the spring.</div></div>
     <h2>Play with all 4 variables below! </h2>    
     <form id="physicsForm">
-            <label for="mass">Mass:</label>
-            <input type="number" max="100"  min="0" value="1" id="mass" required>
-          
-            <label for="stiffness">Stiffness:</label>
-            <input type="number"max="100" min="0" value="10"  id="stiffness" required>
-          
-            <label for="damping">Damping:</label>
-            <input type="number" max="100" min="0" value="1" id="damping" required>
-          
-            <label for="velocity">Velocity:</label>
-            <input type="number" max="100" min="0" value="1" id="velocity" required>
+        
+            <input type="range" max="100"  min="0" value="1" id="mass" oninput="this.nextElementSibling.value = this.value" required>
+            Mass: <output>1</output>
+            <input type="range"max="100" min="0" value="10"  id="stiffness" oninput="this.nextElementSibling.value = this.value"  required>
+            Stiffness: <output>10</output>
+            <input type="range" max="100" min="0" value="1" id="damping" oninput="this.nextElementSibling.value = this.value"  required>
+            Damping: <output>1</output>
+            <input type="range" max="100" min="0" value="1" id="velocity" oninput="this.nextElementSibling.value = this.value"  required>
+            Velocity: <output>1</output>
           <div class="btn-container">
             <button type="button" onclick="startMotion()">Start/Restart</button>
         </div>
