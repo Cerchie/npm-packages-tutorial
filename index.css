@@ -163,6 +163,7 @@ html {
     padding: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5em;
+    font-display: swap;
   }
 
   .p {
