@@ -50,7 +50,7 @@ html {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     font-weight: 800;
-    font-display: swap;
+    font-display: fallback;
   }
 
   h2{
@@ -63,7 +63,7 @@ html {
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-    font-display: swap;
+    font-display: fallback;
   }
 
   .codespan {
@@ -165,7 +165,7 @@ html {
     padding: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5em;
-    font-display: swap;
+    font-display: fallback;
   }
 
   .p {
@@ -180,7 +180,7 @@ html {
     padding: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5em;
-    font-display: swap;
+    font-display: fallback;
   }
 
   button {
