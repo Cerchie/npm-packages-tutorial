@@ -4,45 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spring Physics</title>
+    <title>Making npm packages</title>
     <link rel="stylesheet" href="index.css">
   
 </head>
 <body>
     <script src="./index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
-    <h1>Animating Spring Physics with Anime.js</h1>
-    <p>Ever wonder why a spring-based motion behaves the way it does? Well, there are 4 different reasons:
-    <b>mass, stiffness, damping, and velocity.</b></p>
-    <img src="./bluespring.svg" alt="blue spring" id="bluespring">
-    <div class="p"> The <b>mass</b> of a spring (according to <a href="https://lists.w3.org/Archives/Public/www-style/2016Jun/0181.html">Apple's animation implementation</a>) refers to the mass of the object pulling at the end of the spring.
-<div class="spacer">The <b>stiffness</b>, or tension, of a spring is basically how taut it is, or the <a href="https://physics.stackexchange.com/questions/252795/difference-between-stiffness-and-damping#:~:text=The%20stiffness%20depends%20on%20the,are%20not%20(simply)%20related">elasticity between the atomic bonds.</a></div>
-<div class="spacer">The <b>damping</b> is anything that <a href="https://physics.stackexchange.com/questions/8402/what-affects-the-damping-of-a-spring">causes the spring's motion to be finite,</a> (e.g., friction).</div> 
-    <div class="spacer"> The <b>velocity</b> is the initial velocity of the object attached to the spring.</div></div>
-    <h2>Play with all 4 variables below! </h2>    
-    <form id="physicsForm">
-           <label for="mass">Mass:</label> <output>1</output>
-            <input type="range" max="100"  min="0" value="1" id="mass" oninput="this.previousElementSibling.value = this.value" required>
-            <label for="stiffness">Stiffness:</label> <output>10</output>
-            <input type="range"max="100" min="0" value="10"  id="stiffness" oninput="this.previousElementSibling.value = this.value"  required>
-            <label for="damping">Damping:</label> <output>1</output>
-            <input type="range" max="100" min="0" value="1" id="damping" oninput="this.previousElementSibling.value = this.value"  required>
-            <label for="velocity">Velocity:</label>      <output>1</output>
-            <input type="range" max="100" min="0" value="1" id="velocity" oninput="this.previousElementSibling.value = this.value"  required>
+    <h1>npm packages</h1>
+    <p><a href="https://www.npmjs.com/">npm</a> packages are a great way to make your libraries and Command Line Interfaces and such available to other developers. 
+    But how to make an npm package in the first place? Let's start with a tutorial.</p>
 
-          <div class="btn-container">
-            <button type="button" onclick="startMotion()">Start/Restart</button>
-        </div>
-          </form>
-          <div class="thingy"></div>
-    <p class="desktop-p">In anime.js, you'd <a href="https://animejs.com/documentation/#springPhysicsEasing">implement</a> spring-based motion like this:</p>
+        <form>
+            <div id="needed-items">What you'll need:</div>
 
-    <script src="https://gist.github.com/Cerchie/35560b5f90142fcae477aafd1fd75aac.js"></script>
+            <div class="form-group">
+             <input type="checkbox" id="npm-account" name="npm-account"> 
+             <label for="npm-account">npm <a href="https://www.npmjs.com/signup">account</a> </label> 
+             </div>
+             <div class="form-group">
+             <input type="checkbox" id="github-account" name="github-account"> 
+             <label for="github-account">GitHub <a href="https://github.com/signup>">account</a></label> 
+            </div>
+            <div class="form-group">
+             <input type="checkbox" id="nodejs" name="nodejs">
+             <label for="nodejs"><a href="https://nodejs.org/en">Node.js</a></label> 
+            </div>
+           </form>
 
-    <div class="p">Want more in-depth resources? 
-        <div class="spacer"><a href="https://www.joshwcomeau.com/animation/a-friendly-introduction-to-spring-physics/">Josh W. Comeau's guide</a> is what I'd call the premier resource</div>
-        <div class="spacer"><a href="https://blog.maximeheckel.com/posts/the-physics-behind-spring-animations/">Maxime Henckel's blog post</a> for a thorough intro to the math behind it all</div>
-    </div>
+    <p>lorem ipsum</p>
+    <p>lorem ipsum</p>
     <h2>About me</h2> 
     <img src="https://avatars.githubusercontent.com/u/54046179?v=4" alt="Lucia's headshot" id="headshot">
     <p id="about">I'm Lucia Cerchie, a developer experience professional who loves to learn in public and create educational scrollytales. Find me on <a href="https://github.com/Cerchie">GitHub</a> or <a href="https://www.linkedin.com/in/luciacerchie">LinkedIn</a></p>
