@@ -69,8 +69,8 @@ form {
     width: 70vw;
     gap: 10px;
     margin: auto; /* Center the form horizontally */
-    border: 3px solid black;
-    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: none;
     margin-top: 3em;
     background-color: white;
     padding: 1em;
@@ -83,9 +83,13 @@ form {
     width: 3em; 
     height: 3em;
     border: solid black;
+    margin-bottom: 2em;
   }
+
+
+
 #needed-items {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   white-space: nowrap;
   text-align: left;
 }
@@ -94,8 +98,8 @@ form {
     margin: auto;
     line-height: 1.5;
     width: 60vw;
-    border: 3px solid black;
-    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: none;
     margin-top: 6em;
     background-color: white;
     text-align: center;
